@@ -1,0 +1,34 @@
+{
+  "name": "circ-iter",
+  "version": "1.0.0",
+  "description": "Simple circular array iterator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "circ",
+    "arr",
+    "iter",
+    "circular",
+    "array",
+    "iterator"
+  ],
+  "author": "Mark Tiedemann <www.marktiedemann@gmail.com>",
+  "license": "WTFPL",
+  "devDependencies": {
+    "ava": "^0.15.1"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkTiedemann/circ-iter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarkTiedemann/circ-iter/issues"
+  },
+  "homepage": "https://github.com/MarkTiedemann/circ-iter"
+}

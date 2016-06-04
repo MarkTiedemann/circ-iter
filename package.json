@@ -1,17 +1,19 @@
 {
   "name": "circ-iter",
-  "version": "1.0.0",
-  "description": "Simple circular array iterator.",
+  "version": "2.0.0",
+  "description": "Simple circular Array and String iterator.",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava --verbose"
   },
   "keywords": [
     "circ",
     "arr",
+    "str",
     "iter",
     "circular",
     "array",
+    "string",
     "iterator"
   ],
   "author": "Mark Tiedemann <www.marktiedemann@gmail.com>",
@@ -22,7 +24,6 @@
   "engines": {
     "node": ">=4.0.0"
   },
-  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MarkTiedemann/circ-iter.git"

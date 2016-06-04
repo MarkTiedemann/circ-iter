@@ -1,6 +1,8 @@
 'use strict'
 
 module.exports = arr => {
-    let i = -1, len = arr.length - 1
-    return () => i == len ? arr[i = 0] : arr[++i]
+    if (typeof arr === 'string')
+        arr = arr.split('')
+    let pos = 0, len = arr.length
+    return () => arr[pos++ % len]
 }
